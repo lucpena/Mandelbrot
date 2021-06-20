@@ -77,9 +77,9 @@ int main(){
             int32_t n = findMandelbrot(cr, ci, maxN);
 
             // Mapping the result number to a RGB value
-            int  r = ( n * 1 % 256);
-            int  g = ( n * 3 % 256);
-            int  b = ( n * 4 % 256);
+            int  r = ( n % 256);
+            int  g = ( n % 256);
+            int  b = ( n % 256);
 
             // Output the image
             fout <<  r << " " << g << " " << b << " ";
