@@ -1,5 +1,5 @@
 # Mandelbrot
-Mandelbrot set fractal in C++
+Mandelbrot fractal made in C++.
 
 # Screenshots
 ![Image 1](https://github.com/lucpena/Mandelbrot/blob/main/img/1.jpg)
